@@ -1,0 +1,14 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/Sites/ngine
+hooks:
+  AfterInstall:
+    - location: shells/install_dependencies.sh
+      timeout: 300
+      runas: ubuntu
+  ApplicationStart:
+    - location: shells/start_server.sh
+      timeout: 100
+      runas: ubuntu
