@@ -20,6 +20,7 @@ pipelines:
             - production.zip
        - step:
             name: Upload to S3
+            deployment: s3_deploy
             services:
               - docker
             script:
