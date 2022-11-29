@@ -51,4 +51,3 @@ pipelines:
                   IGNORE_APPLICATION_STOP_FAILURES: "true"
                   FILE_EXISTS_BEHAVIOR: "OVERWRITE"
                   WAIT: "true"
-                  
