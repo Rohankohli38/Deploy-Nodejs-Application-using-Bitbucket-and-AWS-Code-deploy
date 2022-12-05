@@ -3,7 +3,7 @@ import jwt_decode from 'jwt-decode'
 import dayjs from 'dayjs'
 import authConfig from 'src/configs/auth'
 
-const baseURL = 'http://localhost:5000'
+const baseURL = 'http://52.21.199.177:5000'
 
 const axiosInstance = axios.create({
 	baseURL,
